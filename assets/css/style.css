@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{margin:0; padding: 0;}
+
+body{font-family: 'Montserrat', sans-serif;}
+
+input, select{
+    border-radius: 0;
+    width: 100%;
+    height: 40px;
+    padding: 5px 15px;
+    outline: none;
+    border: 1px solid #cecece;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+button{
+    background-color: dodgerblue;
+    border-radius: 0;
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+main .container{
+    max-width: 1140px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+main .container > section{
+    padding: 20px;
+}
+
+main .container > section > form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+main .container > section > form .form-inline{
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+main .container section.preview{
+    display: grid;
+    grid-template-areas: "banner";
+}
+
+main .container section.preview .banner{
+    height: 500px;
+    background-image: url(../../assets/uploads/modelo01.PNG);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+    grid-area: banner;
+
+    
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+main .container .qrCode{
+    background-color: #FFF;
+}
+
+main .container .download{
+    padding: 20px;
+    text-align: center;
+}
+
+main .container .download button{
+    display: none;
+    text-align: center;
+    background-color: forestgreen;
+}

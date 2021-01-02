@@ -1,0 +1,12 @@
+{
+    "name": "thiago/qr-code-produto",
+    "authors": [
+        {
+            "name": "tsalesproductions",
+            "email": "thiago_salests@hotmail.com"
+        }
+    ],
+    "require": {
+        "chillerlan/php-qrcode": "^3.4"
+    }
+}

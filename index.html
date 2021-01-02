@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <section class="form">
+                <form method="POST" enctype="multipart/form-data">
+                    <div>
+                        <label>Envie a imagem</label><br>
+                        <input type="file" name="uploadFile" class="uploadFile"/>
+                    </div>
+
+                    <div>
+                        <label>Url do produto</label><br>
+                        <input type="url" name="url" id="urlProduct"/>
+                    </div>
+
+                    <div>
+                        <button type="submit">Gerar Imagem</button>
+                    </div>
+
+                    <div class="form-inline">
+                        <div>
+                            <label>Posição horizontal</label><br>
+                            <select name="grid-column" id="grid-column">
+                                <option value="1">Posição 1</option>
+                                <option value="2">Posição 2</option>
+                                <option value="3">Posição 3</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label>Posição vertical</label><br>
+                            <select name="grid-row" id="grid-row">
+                                <option value="1">Posição 1</option>
+                                <option value="2">Posição 2</option>
+                                <option value="3">Posição 3</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+                <div class="download">
+                    <button>Download</button>
+                </div>
+            </section>
+            <section class="preview">
+                <div class="banner">
+                    <div class="qrCode"></div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+</body>
+</html>
