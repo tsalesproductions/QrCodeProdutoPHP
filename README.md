@@ -6,7 +6,7 @@
 
 Projeto simples parar gerar QrCode de produto, ideal para quem deseja publicar em redes sociais;
 
-O QrCode chegou pra revolucionar o mercado, agora o cliente, acessa e paga com apenas alguns clique no seu smartphone lendo o codigo Qr. O cliente não precisa acessar o site e pesquisar o produto ou catálogo, ficou muito mais fácil;
+O QrCode chegou pra revolucionar o mercado, agora o cliente, acessa e paga com apenas alguns cliques no seu smartphone lendo o codigo Qr. O cliente não precisa acessar o site e pesquisar o produto ou catálogo, ficou muito mais fácil;
 
 Trouxe esse pequeno projeto que pode ser usado e editado por todos;
 
